@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com    @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>Configurações</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div class="container">
+	<div class="row gutters">
+		<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+			<div class="h-100">
+				<div class="text-center">
+					<img src="../../assets/images/logo-icon.png" alt="Logo soc">
+				</div>
+				<h5 class="text-center">CONFIGURACOES</h5>
+			</div>
+		</div>
+		<div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12">
+			<div class="card h-100">
+				<div class="card-body">
+					<div class="row">
+						<form name="jenkins-config" id="config-form" class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+								<h7 class="mb-3 text-primary">Jenkins</h6>
+								<input type="hidden" class="form-control" id="id" name="id" value="1">
+							</div>
+		
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+								<div class="form-group">
+									<label for="username">Username</label>
+									<input type="text" class="form-control" id="username" name="username" placeholder="Enter username jenkins">
+								</div>
+							</div>
+		
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+								<div class="form-group">
+									<label for="password">Password</label>
+									<input type="password" class="form-control" id="password" name="password" placeholder="Enter password jenkins">
+								</div>
+							</div>
+		
+							<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
+								<div class="form-group">
+									<label for="URL">URL JENKINS</label>
+									<input type="name" class="form-control" id="URL" name="url" placeholder="Enter URL">
+								</div>
+							</div>
+
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="text-right">
+									<button type="button" id="btn-cancel" name="cancel" class="btn btn-secondary">Cancelar</button>
+									<button type="submit" id="btn-submit" name="submit" class="btn btn-primary">Atualizar</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="./index.js"></script>
+
+</body>
+</html>
